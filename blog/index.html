@@ -1,0 +1,3114 @@
+<!doctype html>
+<html lang="zh" class="light overflow-x-hidden scroll-smooth" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="linux, debian, ubuntu, consulting, hosting, training, classes, courses" />
+  <meta name="author" content="Blunix GmbH" />
+  <meta name="website" content="https://www.blunix.com" />
+  <meta name="email" content="info@blunix.com" />
+  <meta name="version" content="2.0.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link rel="canonical" href="http://localhost:1313/blog/" />
+  <link rel="alternate" hreflang="zh" href="http://localhost:1313/blog/" /><link rel="alternate" hreflang="x-default" href="http://localhost:1313/blog/" />
+  <title>光伏资讯</title>
+  <meta name="description" content="关注光伏发电、储能技术与新能源项目动态" />
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <link rel="preload" href="/fonts/Nunito-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Nunito-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Nunito-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+
+<link rel="preload" href="/libs/@iconscout/unicons/css/line.min.css" as="style" onload="this.rel='stylesheet'" />
+
+
+
+
+
+
+
+
+  <meta property="og:url" content="http://localhost:1313/blog/">
+  <meta property="og:site_name" content="融泰光伏运维公司">
+  <meta property="og:title" content="光伏资讯">
+  <meta property="og:description" content="关注光伏发电、储能技术与新能源项目动态">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="http://localhost:1313/images/solar/hero-solar-park.png">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/solar/hero-solar-park.png">
+  <meta name="twitter:title" content="光伏资讯">
+  <meta name="twitter:description" content="关注光伏发电、储能技术与新能源项目动态">
+
+
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+  <link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/gif" href="/images/favicon/favicon.gif" />
+  <link rel="icon" type="image/png" href="/images/favicon/favicon.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicon/apple-touch-57x57.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicon/apple-touch-72x72.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-114x114.ico" />
+</head>
+<body class="font-nunito overflow-x-hidden text-base text-black bg-white"><nav id="topnav" class="defaultscroll is-sticky">
+    <div class="container relative">
+        <a class="logo" href="/">
+            
+            
+            <img src="/images/navbar/logo-dark.svg" class="l-dark h-[54px] w-auto" width="280" height="50" fetchpriority="high" alt="融泰光伏运维公司 Logo">
+            
+            
+            <img src="/images/navbar/logo-light.svg" class="l-light h-[54px] w-auto" width="280" height="50" fetchpriority="high" alt="融泰光伏运维公司 Logo">
+            
+        </a>
+        <div class="menu-extras">
+            <div class="menu-item">
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines"><span></span><span></span><span></span></div>
+                </a>
+            </div>
+        </div>
+        <div id="navigation" class="transition-transform duration-300 ease-in-out">
+            <ul class="navigation-menu nav-light justify-end">
+                
+                  
+                    <li><a href="/" class="sub-menu-item">首页</a></li>
+                  
+                
+                  
+                    <li class="has-submenu services-has-submenu parent-parent-menu-item">
+                      <a href="#" onclick="return false;">服务</a><span class="menu-arrow"></span>
+                      <ul class="submenu services-submenu"><li><ul>
+                        
+                          <li><a href="/#consulting" class="sub-menu-item text-base"><i class="uil uil-chart-line"></i> 户用光伏</a></li>
+                        
+                          <li><a href="/#development" class="sub-menu-item text-base"><i class="uil uil-desktop"></i> 工商业光伏</a></li>
+                        
+                          <li><a href="/#training" class="sub-menu-item text-base"><i class="uil uil-graduation-cap"></i> 储能与运维</a></li>
+                        
+                      </ul></li></ul>
+                    </li>
+                  
+                
+                  
+                    <li><a href="/blog/" class="sub-menu-item">光伏资讯</a></li>
+                  
+                
+                  
+                    <li><a href="/#contact" class="sub-menu-item">联系我们</a></li>
+                  
+                
+                <li class="has-submenu parent-parent-menu-item">
+                    <a href="#" onclick="return false;" aria-label="language switcher">
+                        <i class="uil uil-globe" style="font-size: 1.3rem;"></i>
+                    </a><span class="menu-arrow"></span>
+                    <ul class="submenu">
+                        <li>
+                            <ul id="languageMenu">
+                                
+                                
+                                
+                                
+                                  
+                                  
+                                  
+                                  
+                                  
+                                    
+                                  
+                                
+                                
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                    
+                                    
+                                    
+                                    
+                                      
+                                    
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                    
+                                  
+                                  
+                                <li>
+                                  <a href="/blog/" class="sub-menu-item" data-lang="zh" aria-current="true">
+                                    
+                                      
+                                      
+                                      
+                                      
+                                        <img src="/images/navbar/flags/china.webp" alt="中文" width="300" height="200" class="h-5 w-auto lg:w-5 lg:h-5 object-contain flex-shrink-0">
+                                      
+                                    
+                                    <span class="hidden lg:inline">中文</span>
+                                  </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<section class="relative table w-full py-36">
+    
+    
+    <div class="absolute inset-0">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/hero-solar-park_hu_52342d83195e2682.webp 480w, /images/solar/hero-solar-park_hu_f6b84a89f479a59c.webp 640w, /images/solar/hero-solar-park_hu_e15f7c0610856bdd.webp 768w, /images/solar/hero-solar-park_hu_c859e29d61ff9ef0.webp 960w, /images/solar/hero-solar-park_hu_9ac095a42701aab6.webp 1024w, /images/solar/hero-solar-park_hu_d26c4ed84de7b806.webp 1280w, /images/solar/hero-solar-park_hu_6c6c155270c91904.webp 1536w, /images/solar/hero-solar-park_hu_51ea0915e416fdf7.webp 1672w"
+          sizes="(max-width: 1920px) 100vw, 1920px" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/hero-solar-park_hu_66aaba486004d8a8.png 480w, /images/solar/hero-solar-park_hu_11bea5c1cf166080.png 640w, /images/solar/hero-solar-park_hu_9c38b46474f41221.png 768w, /images/solar/hero-solar-park_hu_f46e28ee750285b7.png 960w, /images/solar/hero-solar-park_hu_650c5d93f2047670.png 1024w, /images/solar/hero-solar-park_hu_d962c34c19e664de.png 1280w, /images/solar/hero-solar-park_hu_8c32269657697733.png 1536w, /images/solar/hero-solar-park.png 1672w"
+          sizes="(max-width: 1920px) 100vw, 1920px" />
+      
+
+      
+      <img
+        src="/images/solar/hero-solar-park.png"
+        alt="光伏资讯背景"
+        class="h-full w-full object-cover object-center"
+        width="1672"
+        height="941"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high" />
+    </picture>
+  
+
+
+    </div>
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <div class="container relative">
+        <div class="grid grid-cols-1 pb-8 text-center mt-10">
+            <h1 class="font-bold lg:leading-normal leading-normal text-4xl lg:text-7xl mb-5 text-white">光伏资讯</h1>
+            <div class="text-2xl text-slate-500 max-w-xl mx-auto text-white prose prose-a:text-blue-500 prose-a:hover:text-blue-700 prose-a:font-semibold prose-a:underline hover:prose-a:no-underline max-w-none">
+                汇集光伏行业动态、项目案例、技术趋势与运维知识，为绿色能源项目提供有价值的参考。
+            </div>
+        </div>
+    </div>
+
+    <div class="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
+        <ul class="tracking-[0.5px] mb-0 inline-block">
+           <li class="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white">首页</li>
+           <li class="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i class="uil uil-angle-right-b"></i></li>
+           <li class="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">光伏资讯</li>
+        </ul>
+    </div>
+</section>
+<div class="relative">
+    <div class="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-white">
+        <svg class="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+
+
+
+<section class="relative md:py-24 py-16">
+    <div class="container relative">
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
+
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/typhoon-resistant-solar-modules/"  aria-label="阅读文章：防台风光伏组件：极端天气下如何守护电站资产" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/residential-installation_hu_1a1b1cabcb7b168e.webp 320w, /images/solar/residential-installation_hu_d8f7b90d923f3f6b.webp 400w, /images/solar/residential-installation_hu_746a46d13ae62c35.webp 500w, /images/solar/residential-installation_hu_4727ab5ee1401a07.webp 640w, /images/solar/residential-installation_hu_6d8bde241d151502.webp 800w, /images/solar/residential-installation_hu_fc963d630f43a3c2.webp 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/residential-installation_hu_154b6c2df73cd24a.png 320w, /images/solar/residential-installation_hu_58207c65c5beb9e5.png 400w, /images/solar/residential-installation_hu_e2aaacc8bd59a6dd.png 500w, /images/solar/residential-installation_hu_b79f3f6616acab7d.png 640w, /images/solar/residential-installation_hu_f452f842fe10bb2b.png 800w, /images/solar/residential-installation.png 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/residential-installation.png"
+        alt="防台风光伏组件：极端天气下如何守护电站资产"
+        class="w-full h-full object-cover"
+        width="1448"
+        height="1086"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/typhoon-resistant-solar-modules/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">防台风光伏组件：极端天气下如何守护电站资产</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">从沿海台风实证看组件抗风、抗隐裂与长期可靠性。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月31日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/wind-solar-storage-base-installation/"  aria-label="阅读文章：8万千瓦光伏区完成组件安装，风光储基地进入调试阶段" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/hero-solar-park_hu_91eebd204dee3d91.webp 320w, /images/solar/hero-solar-park_hu_e9614bdb7def12f.webp 400w, /images/solar/hero-solar-park_hu_c24d0bd3a509331.webp 500w, /images/solar/hero-solar-park_hu_f6b84a89f479a59c.webp 640w, /images/solar/hero-solar-park_hu_aa1a46065e138f11.webp 800w, /images/solar/hero-solar-park_hu_51ea0915e416fdf7.webp 1672w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/hero-solar-park_hu_4225814a03eca23.png 320w, /images/solar/hero-solar-park_hu_8710ed9959c9d605.png 400w, /images/solar/hero-solar-park_hu_d781d916d67d0524.png 500w, /images/solar/hero-solar-park_hu_11bea5c1cf166080.png 640w, /images/solar/hero-solar-park_hu_ab794f060045fb60.png 800w, /images/solar/hero-solar-park.png 1672w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/hero-solar-park.png"
+        alt="8万千瓦光伏区完成组件安装，风光储基地进入调试阶段"
+        class="w-full h-full object-cover"
+        width="1672"
+        height="941"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/wind-solar-storage-base-installation/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">8万千瓦光伏区完成组件安装，风光储基地进入调试阶段</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">大型风光储项目完成光伏区主体安装，项目管理经验值得关注。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月30日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/high-efficiency-module-procurement/"  aria-label="阅读文章：高效组件进入大型能源集团集采，转换效率成为重要指标" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/commercial-rooftop_hu_8cd9077a20067ab0.webp 320w, /images/solar/commercial-rooftop_hu_3c055680625f3e02.webp 400w, /images/solar/commercial-rooftop_hu_2a37ed73f4193acb.webp 500w, /images/solar/commercial-rooftop_hu_40857dbea07bc992.webp 640w, /images/solar/commercial-rooftop_hu_d738e93c3bef4c8e.webp 800w, /images/solar/commercial-rooftop_hu_ba09b1118fe03886.webp 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/commercial-rooftop_hu_2bd136accc387355.png 320w, /images/solar/commercial-rooftop_hu_bdeba484b46b0707.png 400w, /images/solar/commercial-rooftop_hu_12209d2c96ea4f8a.png 500w, /images/solar/commercial-rooftop_hu_8ddaef13f86ae7f9.png 640w, /images/solar/commercial-rooftop_hu_1a5c76c0af111e59.png 800w, /images/solar/commercial-rooftop.png 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/commercial-rooftop.png"
+        alt="高效组件进入大型能源集团集采，转换效率成为重要指标"
+        class="w-full h-full object-cover"
+        width="1448"
+        height="1086"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/high-efficiency-module-procurement/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">高效组件进入大型能源集团集采，转换效率成为重要指标</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">大型光伏集采对组件效率、功率和场景适配能力提出更高要求。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月29日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/cnnc-43gw-module-procurement/"  aria-label="阅读文章：中核4.3GW组件集采释放规模化采购信号" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+      
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/solar-market_hu_b2742fbae2b4240.webp 288w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/solar-market.jpg 288w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/solar-market.jpg"
+        alt="中核4.3GW组件集采释放规模化采购信号"
+        class="w-full h-full object-cover"
+        width="288"
+        height="230"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/cnnc-43gw-module-procurement/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">中核4.3GW组件集采释放规模化采购信号</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">多家主流组件企业入围大型集采，价格与全周期价值需要综合评估。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月28日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/yunnan-120mw-solar-project/"  aria-label="阅读文章：云南120MW光伏项目公示，组串式逆变方案受关注" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/hero-solar-park_hu_91eebd204dee3d91.webp 320w, /images/solar/hero-solar-park_hu_e9614bdb7def12f.webp 400w, /images/solar/hero-solar-park_hu_c24d0bd3a509331.webp 500w, /images/solar/hero-solar-park_hu_f6b84a89f479a59c.webp 640w, /images/solar/hero-solar-park_hu_aa1a46065e138f11.webp 800w, /images/solar/hero-solar-park_hu_51ea0915e416fdf7.webp 1672w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/hero-solar-park_hu_4225814a03eca23.png 320w, /images/solar/hero-solar-park_hu_8710ed9959c9d605.png 400w, /images/solar/hero-solar-park_hu_d781d916d67d0524.png 500w, /images/solar/hero-solar-park_hu_11bea5c1cf166080.png 640w, /images/solar/hero-solar-park_hu_ab794f060045fb60.png 800w, /images/solar/hero-solar-park.png 1672w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/hero-solar-park.png"
+        alt="云南120MW光伏项目公示，组串式逆变方案受关注"
+        class="w-full h-full object-cover"
+        width="1672"
+        height="941"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/yunnan-120mw-solar-project/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">云南120MW光伏项目公示，组串式逆变方案受关注</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">项目采用组串式逆变器和合理容配比，计划用一年完成建设。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月27日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/pv-modules-for-fishery-and-mountain-projects/"  aria-label="阅读文章：渔光互补与山地项目如何选择高可靠光伏组件" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+      
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/solar-agriculture_hu_e92e89d19f5facc0.webp 288w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/solar-agriculture.jpg 288w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/solar-agriculture.jpg"
+        alt="渔光互补与山地项目如何选择高可靠光伏组件"
+        class="w-full h-full object-cover"
+        width="288"
+        height="193"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/pv-modules-for-fishery-and-mountain-projects/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">渔光互补与山地项目如何选择高可靠光伏组件</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">高湿水面和复杂山地对组件双面发电、机械强度及抗衰减能力提出不同要求。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月26日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/global-solar-orders-over-4gw/"  aria-label="阅读文章：海外光伏订单超4GW，多场景产品加速走向全球" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+      
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/solar-market_hu_b2742fbae2b4240.webp 288w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/solar-market.jpg 288w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/solar-market.jpg"
+        alt="海外光伏订单超4GW，多场景产品加速走向全球"
+        class="w-full h-full object-cover"
+        width="288"
+        height="230"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/global-solar-orders-over-4gw/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">海外光伏订单超4GW，多场景产品加速走向全球</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">中国光伏企业近期海外订单覆盖组件、逆变器、储能与多种应用场景。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月25日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/global-clean-energy-cooperation/"  aria-label="阅读文章：光储解决方案推动国际清洁能源合作" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/energy-storage_hu_1b2c9d85e1508a16.webp 320w, /images/solar/energy-storage_hu_e09b88503af64ef3.webp 400w, /images/solar/energy-storage_hu_c872eb1a294f05df.webp 500w, /images/solar/energy-storage_hu_4691b7034221a833.webp 640w, /images/solar/energy-storage_hu_2134fb38e8a66abf.webp 800w, /images/solar/energy-storage_hu_e702aae8539ae507.webp 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/energy-storage_hu_a3154a8e7b15ed4b.png 320w, /images/solar/energy-storage_hu_c811550208b25634.png 400w, /images/solar/energy-storage_hu_9aee6c4f755c645e.png 500w, /images/solar/energy-storage_hu_779584e8b7fc3813.png 640w, /images/solar/energy-storage_hu_84484c793ee789d8.png 800w, /images/solar/energy-storage.png 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/energy-storage.png"
+        alt="光储解决方案推动国际清洁能源合作"
+        class="w-full h-full object-cover"
+        width="1448"
+        height="1086"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/global-clean-energy-cooperation/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">光储解决方案推动国际清洁能源合作</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">多场景组件、储能和微电网成为国际绿色能源合作的重要议题。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月24日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/solar-storage-solutions-in-latin-america/"  aria-label="阅读文章：拉美光伏市场增长，高温高湿环境考验系统可靠性" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/energy-storage_hu_1b2c9d85e1508a16.webp 320w, /images/solar/energy-storage_hu_e09b88503af64ef3.webp 400w, /images/solar/energy-storage_hu_c872eb1a294f05df.webp 500w, /images/solar/energy-storage_hu_4691b7034221a833.webp 640w, /images/solar/energy-storage_hu_2134fb38e8a66abf.webp 800w, /images/solar/energy-storage_hu_e702aae8539ae507.webp 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/energy-storage_hu_a3154a8e7b15ed4b.png 320w, /images/solar/energy-storage_hu_c811550208b25634.png 400w, /images/solar/energy-storage_hu_9aee6c4f755c645e.png 500w, /images/solar/energy-storage_hu_779584e8b7fc3813.png 640w, /images/solar/energy-storage_hu_84484c793ee789d8.png 800w, /images/solar/energy-storage.png 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/energy-storage.png"
+        alt="拉美光伏市场增长，高温高湿环境考验系统可靠性"
+        class="w-full h-full object-cover"
+        width="1448"
+        height="1086"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/solar-storage-solutions-in-latin-america/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">拉美光伏市场增长，高温高湿环境考验系统可靠性</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">巴西等拉美市场持续增长，光伏与储能产品需要适应多样气候和应用场景。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月23日</span>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="group relative rounded-md border border-gray-200 shadow-sm hover:shadow-md duration-500 ease-in-out overflow-hidden flex flex-col h-full">
+                <div class="grow">
+                    <div class="relative overflow-hidden">
+                        <a href="/blog/pv-projects-across-china/"  aria-label="阅读文章：多地光伏项目密集推进，复合开发模式持续扩展" class="block overflow-hidden">
+                            
+                            <div class="w-full overflow-hidden" style="aspect-ratio: 16 / 9;">
+                                <div class="w-full h-full transform duration-500 ease-in-out group-hover:scale-110">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/solar/commercial-rooftop_hu_8cd9077a20067ab0.webp 320w, /images/solar/commercial-rooftop_hu_3c055680625f3e02.webp 400w, /images/solar/commercial-rooftop_hu_2a37ed73f4193acb.webp 500w, /images/solar/commercial-rooftop_hu_40857dbea07bc992.webp 640w, /images/solar/commercial-rooftop_hu_d738e93c3bef4c8e.webp 800w, /images/solar/commercial-rooftop_hu_ba09b1118fe03886.webp 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/solar/commercial-rooftop_hu_2bd136accc387355.png 320w, /images/solar/commercial-rooftop_hu_bdeba484b46b0707.png 400w, /images/solar/commercial-rooftop_hu_12209d2c96ea4f8a.png 500w, /images/solar/commercial-rooftop_hu_8ddaef13f86ae7f9.png 640w, /images/solar/commercial-rooftop_hu_1a5c76c0af111e59.png 800w, /images/solar/commercial-rooftop.png 1448w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />
+      
+
+      
+      <img
+        src="/images/solar/commercial-rooftop.png"
+        alt="多地光伏项目密集推进，复合开发模式持续扩展"
+        class="w-full h-full object-cover"
+        width="1448"
+        height="1086"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-none"></div>
+                    </div>
+                    <div class="content p-6">
+                        <a href="/blog/pv-projects-across-china/" >
+                            <h2 class="text-blue-500 hover:text-blue-700 underline hover:no-underline text-xl md:text-2xl leading-snug font-semibold">多地光伏项目密集推进，复合开发模式持续扩展</h2>
+                        </a>
+                        <p class="mt-3 text-base md:text-lg leading-relaxed text-slate-500 max-w-xl mx-auto">农光互补、渔光互补和风光储基地等项目在多省加快落地。</p>
+                    </div>
+                </div>
+                <ul class="pt-4 border-t border-gray-200 flex items-center list-none text-slate-500 px-6 pb-6">
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+
+
+                        </span>
+                        <span>1 分钟</span>
+                    </li>
+                    
+                    <li class="flex items-center me-4">
+                        <span class="inline-flex me-2 text-slate-500">
+                            
+
+
+
+
+
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+
+
+                        </span>
+                        <span>2026年8月22日</span>
+                    </li>
+                </ul>
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+
+<section class="relative py-16 md:py-24" id="questions-contact">
+  <div class="relative container">
+    <div class="grid grid-cols-1 text-center">
+      <h2 class="mb-2 text-4xl font-bold">有任何问题或需求？</h2>
+      <div class="my-6">
+        <a href="/#contact" title="联系我们" class="mt-2 mb-2 inline-block rounded-md border border-blue-600 bg-blue-600 px-5 py-2 text-center align-middle text-xl font-semibold tracking-wide text-white duration-500 hover:border-green-700 hover:bg-green-700 md:px-6 md:py-3 md:text-3xl"><i class="uil uil-phone"></i> 立即联系我们</a>
+      </div>
+      <h3 class="mb-4 text-2xl leading-normal font-semibold md:text-3xl md:leading-normal">期待收到您的消息！</h3>
+      <p class="mx-auto max-w-xl text-2xl text-slate-500">
+        您是否在寻找<br />
+        
+        
+        
+          
+          
+            <a class="font-semibold text-primary underline hover:text-blue-700 hover:no-underline" href="/#consulting" title="户用光伏">户用光伏</a>,<br />
+          
+            <a class="font-semibold text-primary underline hover:text-blue-700 hover:no-underline" href="/#development" title="工商业光伏">工商业光伏</a> 或<br />
+          
+            <a class="font-semibold text-primary underline hover:text-blue-700 hover:no-underline" href="/#training" title="储能与运维">储能与运维</a>?
+          
+        
+      </p>
+    </div>
+    
+  </div>
+  
+</section>
+
+
+
+
+<footer class="footer bg-dark-footer relative">
+    <div class="container relative">
+        <div class="grid grid-cols-12">
+            <div class="col-span-12">
+                <div class="py-[60px] px-0">
+                    <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                        <div class="lg:col-span-3 md:col-span-12">
+                            <h2 class="tracking-[1px] text-white font-semibold"></h2>
+                            <div class="mt-6 text-white [&_*]:text-white">Copyright @ 2026</div>
+                        </div>
+
+                        <div class="lg:col-span-3 md:col-span-4">
+                            
+                            
+                            <h2 class="tracking-[1px] text-white font-semibold">公司</h2>
+                            <ul class="list-none footer-list mt-6">
+                                
+                                  <li><a href="/" title="首页" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> 首页</a></li>
+                                
+                                  <li class="mt-[10px]"><a href="/consulting/" title="服务" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> 服务</a></li>
+                                
+                                  <li class="mt-[10px]"><a href="/#contact" title="联系我们" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> 联系我们</a></li>
+                                
+                            </ul>
+                            
+                        </div>
+
+                        <div class="lg:col-span-3 md:col-span-4">
+                            
+                            
+                            <h2 class="tracking-[1px] text-white font-semibold">资源</h2>
+                            <ul class="list-none footer-list mt-6">
+                                
+                                  <li><a href="/blog/" title="光伏资讯" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> 光伏资讯</a></li>
+                                
+                            </ul>
+                            
+                        </div>
+
+                        <div class="lg:col-span-3 md:col-span-4">
+                            <h2 class="tracking-[1px] text-white font-semibold">关注我们</h2>
+                            <ul class="list-none mt-6 space-x-2">
+                                
+                                  <li class="inline"><a href="https://twitter.com/" title="Follow us on Twitter" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-twitter"></i>
+                                  </a></li>
+                                
+                                  <li class="inline"><a href="https://www.linkedin.com/" title="Connect on LinkedIn" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-linkedin"></i>
+                                  </a></li>
+                                
+                                  <li class="inline"><a href="https://github.com/" title="View our GitHub" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-github"></i>
+                                  </a></li>
+                                
+                                  <li class="inline"><a href="https://instagram.com/" title="Follow on Instagram" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-instagram"></i>
+                                  </a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<style>
+#fade {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  opacity: .80;
+}
+
+#light {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 1002;
+  overflow: visible;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxclose {
+  cursor: pointer;
+  color: #fff;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1003;
+}
+
+.boxclose:before {
+  content: "×";
+}
+
+.video-container {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  background-color: black;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container video,
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 640px) {
+  .video-container {
+    width: 95%;
+  }
+}
+</style>
+
+
+<div id="light">
+    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+    <div class="video-container">
+        <video style="display: none;">
+        </video>
+        <iframe id="youtube-iframe" style="display: none; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div id="fade" onClick="lightbox_close();"></div>
+
+<script>
+window.document.onkeydown = function(e) {
+  if (!e) {
+    e = event;
+  }
+  if (e.keyCode == 27) {
+    lightbox_close();
+  }
+}
+
+function lightbox_open(videoId) {
+  const lightbox = document.getElementById('light');
+  const fade = document.getElementById('fade');
+  const video = lightbox.querySelector('video');
+  const iframe = document.getElementById('youtube-iframe');
+  
+  lightbox.style.display = 'flex';
+  fade.style.display = 'block';
+  
+  
+  if (videoId && videoId !== 'placeholder' && !videoId.includes('.')) {
+    
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    iframe.style.display = 'block';
+    video.style.display = 'none';
+  } else {
+    
+    video.src = videoId || 'https://www.blunix.com/assets/images/linux-managed-hosting/placeholder.mp4';
+    video.style.display = 'block';
+    iframe.style.display = 'none';
+    video.load();
+    video.play();
+  }
+}
+
+function lightbox_close() {
+  const lightbox = document.getElementById('light');
+  const fade = document.getElementById('fade');
+  const video = lightbox.querySelector('video');
+  const iframe = document.getElementById('youtube-iframe');
+  
+  lightbox.style.display = 'none';
+  fade.style.display = 'none';
+  
+  if (video) {
+    video.pause();
+    video.currentTime = 0;
+  }
+  
+  if (iframe) {
+    iframe.src = '';
+  }
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('[data-type="youtube"]').forEach(element => {
+    element.addEventListener('click', function(e) {
+      e.preventDefault();
+      const videoId = this.getAttribute('data-id');
+      lightbox_open(videoId);
+    });
+  });
+});
+</script>
+
+<a href="#start" onclick="topFunction()" id="back-to-top" class="back-to-top fixed end-5 bottom-5 z-10 hidden size-9 rounded-full bg-blue-600 text-center text-lg leading-9 text-white"><i class="uil uil-arrow-up"></i></a>
+
+    
+    
+    
+
+    <script defer src="/js/scripts.js"></script>
+  </body>
+</html>

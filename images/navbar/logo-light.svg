@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 50">
+  <circle cx="21" cy="25" r="9" fill="#fbbf24"/>
+  <g stroke="#fbbf24" stroke-width="2" stroke-linecap="round">
+    <path d="M21 7v5M21 38v5M3 25h5M34 25h5M8.3 12.3l3.5 3.5M30.2 34.2l3.5 3.5M8.3 37.7l3.5-3.5M30.2 15.8l3.5-3.5"/>
+  </g>
+  <text x="46" y="33" font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" letter-spacing="0.5" fill="#ffffff">融泰光伏运维公司</text>
+</svg>
